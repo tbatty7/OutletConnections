@@ -14,6 +14,8 @@
 		22B1C2B127ADA52E000D6EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B1C2B027ADA52E000D6EB7 /* Assets.xcassets */; };
 		22B1C2B427ADA52E000D6EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B1C2B227ADA52E000D6EB7 /* LaunchScreen.storyboard */; };
 		22B1C2D827ADA68C000D6EB7 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C2D727ADA68C000D6EB7 /* Tests.swift */; };
+		22B1C2DB27ADAF5A000D6EB7 /* OutletConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C2D927ADAF5A000D6EB7 /* OutletConnectionsViewController.swift */; };
+		22B1C2DC27ADAF5A000D6EB7 /* OutletConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B1C2DA27ADAF5A000D6EB7 /* OutletConnectionsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		22B1C2B527ADA52E000D6EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22B1C2BA27ADA52E000D6EB7 /* OutletConnectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutletConnectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B1C2D727ADA68C000D6EB7 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		22B1C2D927ADAF5A000D6EB7 /* OutletConnectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletConnectionsViewController.swift; sourceTree = "<group>"; };
+		22B1C2DA27ADAF5A000D6EB7 /* OutletConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutletConnectionsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				22B1C2B027ADA52E000D6EB7 /* Assets.xcassets */,
 				22B1C2B227ADA52E000D6EB7 /* LaunchScreen.storyboard */,
 				22B1C2B527ADA52E000D6EB7 /* Info.plist */,
+				22B1C2D927ADAF5A000D6EB7 /* OutletConnectionsViewController.swift */,
+				22B1C2DA27ADAF5A000D6EB7 /* OutletConnectionsViewController.xib */,
 			);
 			path = OutletConnections;
 			sourceTree = "<group>";
@@ -181,6 +187,7 @@
 				22B1C2B427ADA52E000D6EB7 /* LaunchScreen.storyboard in Resources */,
 				22B1C2B127ADA52E000D6EB7 /* Assets.xcassets in Resources */,
 				22B1C2AF27ADA52D000D6EB7 /* Main.storyboard in Resources */,
+				22B1C2DC27ADAF5A000D6EB7 /* OutletConnectionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +208,7 @@
 				22B1C2AC27ADA52D000D6EB7 /* ViewController.swift in Sources */,
 				22B1C2A827ADA52D000D6EB7 /* AppDelegate.swift in Sources */,
 				22B1C2AA27ADA52D000D6EB7 /* SceneDelegate.swift in Sources */,
+				22B1C2DB27ADAF5A000D6EB7 /* OutletConnectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
